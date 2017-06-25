@@ -22,7 +22,7 @@ const (
 // GitlabProvider implements the Provider interface and provides Gitlab
 // OAuth2 communication capabilities.
 type GitlabProvider struct {
-	config         *common.Config
+	Config         *common.Config
 	tripperFactory common.TripperFactory
 }
 
